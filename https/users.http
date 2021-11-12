@@ -1,0 +1,29 @@
+### Create user
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "user":"",
+    "password":"",
+    "email":""
+}
+
+### Get users
+GET http://localhost:5000/users
+
+### Get user
+GET http://localhost:5000/users/<id>
+
+### Delete user
+DELETE http://localhost:5000/users/<id>
+
+
+### Update user
+PUT http://localhost:5000/users/<id>
+Content-Type: application/json
+
+{
+    "user":"",
+    "password":"",
+    "email":""
+}
